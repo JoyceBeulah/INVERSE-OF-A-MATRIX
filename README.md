@@ -16,9 +16,9 @@ print the rank and get the output
 ## Program:
 ```
 import numpy as np
-A=np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
-rank=np.linalg.matrix_rank(A)
-print (rank)
+A=np.array([[1,0,3],[-1,2,-2],[2,3,-1]])
+result=np.linalg.inv(A)
+print(result)
 ```
 ## Output:
 !["output"](/inverse%20output.png)
