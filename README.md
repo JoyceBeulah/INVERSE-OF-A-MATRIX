@@ -15,6 +15,9 @@ give the linalg command
 print the rank and get the output
 ## Program:
 ```
+#program to find the inverse of a matrix
+#Developed by: Joyce Beulah R
+#RegisterNumber:22009334
 import numpy as np
 A=np.array([[1,0,3],[-1,2,-2],[2,3,-1]])
 result=np.linalg.inv(A)
